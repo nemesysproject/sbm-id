@@ -1,4 +1,4 @@
-$(document).ready(function() {
+jQuery(document).ready(function($) {
   "use strict";
 
   //Contact
@@ -107,24 +107,26 @@ $(document).ready(function() {
       }
     });
 
+    
+
     var fromEmail = $("#email").val();
     var contactName = $("#name").val();
     var subject = $("#subject").val();
     var message = $("#message").val();
 
-    if (fromEmail !== "" && subject !== "" && message !== "") {
+    $(document).ready(function() {
       Email.send({
-        Host: "sbm-id.net",
+        Host: "smtp.yourisp.com",
         // Username: "username",
         // Password: "password",
-        To: "contact@sbm-id.net",
+        To: 'contact@sbm-id.net',
         From: fromEmail,
         Subject: subject,
         Body: message
       }).then(response => {
-        console.log("response:" + response);
-      });
-    }
+
+      }));
+    });
 
     return false;
   });

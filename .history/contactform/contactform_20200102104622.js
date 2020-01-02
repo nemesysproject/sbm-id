@@ -112,18 +112,16 @@ $(document).ready(function() {
     var subject = $("#subject").val();
     var message = $("#message").val();
 
-    if (fromEmail !== "" && subject !== "" && message !== "") {
+    if (fromEmail && subject && message) {
       Email.send({
-        Host: "sbm-id.net",
+        Host: "smtp.yourisp.com",
         // Username: "username",
         // Password: "password",
         To: "contact@sbm-id.net",
         From: fromEmail,
         Subject: subject,
         Body: message
-      }).then(response => {
-        console.log("response:" + response);
-      });
+      }).then(response => {});
     }
 
     return false;

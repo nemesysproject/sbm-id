@@ -1,4 +1,4 @@
-$(document).ready(function() {
+jQuery(document).ready(function($) {
   "use strict";
 
   //Contact
@@ -107,24 +107,48 @@ $(document).ready(function() {
       }
     });
 
+    // if (ferror) return false;
+    // else var str = $(this).serialize();
+    // var action = $(this).attr("action");
+    // if (!action) {
+    //   action = "contactform/contactform.php";
+    // }
+    // $.ajax({
+    //   type: "POST",
+    //   url: action,
+    //   data: str,
+    //   success: function(msg) {
+    //     // alert(msg);
+    //     if (msg == "OK") {
+    //       $("#sendmessage").addClass("show");
+    //       $("#errormessage").removeClass("show");
+    //       $(".contactForm")
+    //         .find("input, textarea")
+    //         .val("");
+    //     } else {
+    //       $("#sendmessage").removeClass("show");
+    //       $("#errormessage").addClass("show");
+    //       $("#errormessage").html(msg);
+    //     }
+    //   }
+    // });
+
     var fromEmail = $("#email").val();
     var contactName = $("#name").val();
     var subject = $("#subject").val();
     var message = $("#message").val();
 
-    if (fromEmail !== "" && subject !== "" && message !== "") {
+    $(document).ready(function() {
       Email.send({
-        Host: "sbm-id.net",
-        // Username: "username",
-        // Password: "password",
+        Host: "smtp.yourisp.com",
+        Username: "username",
+        Password: "password",
         To: "contact@sbm-id.net",
-        From: fromEmail,
+        From: "you@isp.com",
         Subject: subject,
         Body: message
-      }).then(response => {
-        console.log("response:" + response);
-      });
-    }
+      }).then(response => alert(response));
+    });
 
     return false;
   });

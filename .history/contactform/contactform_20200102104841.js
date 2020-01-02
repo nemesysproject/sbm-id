@@ -114,7 +114,7 @@ $(document).ready(function() {
 
     if (fromEmail !== "" && subject !== "" && message !== "") {
       Email.send({
-        Host: "sbm-id.net",
+        Host: "smtp.yourisp.com",
         // Username: "username",
         // Password: "password",
         To: "contact@sbm-id.net",
