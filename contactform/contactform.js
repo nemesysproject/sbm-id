@@ -113,16 +113,45 @@ $(document).ready(function() {
     var message = $("#message").val();
 
     if (fromEmail !== "" && subject !== "" && message !== "") {
-      Email.send({
-        Host: "sbm-id.net",
-        // Username: "username",
-        // Password: "password",
-        To: "contact@sbm-id.net",
-        From: fromEmail,
-        Subject: subject,
-        Body: message
-      }).then(response => {
-        console.log("response:" + response);
+      var data = {
+        Name: contactName,
+        Email:fromEmail,
+        Subject:subject,
+        Message:message
+      };
+      // Email.send({
+      //   Host: "sbm-id.net",
+      //   // Username: "username",
+      //   // Password: "password",
+      //   To: "contact@sbm-id.net",
+      //   From: fromEmail,
+      //   Subject: subject,
+      //   Body: message
+      // }).then(response => {
+      //   console.log("response:" + response);
+      // });
+
+      $("#submitForm").prop("disabled", true);
+      $.LoadingOverlay("show");
+
+
+      $.ajax({
+        type: "POST",
+        url: "https://localhost:44319/api/Email",
+        data: data,        
+        dataType: "json"
+      })
+      .done( function(){
+        console.log('email send!');
+        $('#contactForm').trigger("reset");
+        $("#submitForm").prop("disabled", false);
+        $.LoadingOverlay("hide");
+      })
+      .fail(function(jqXHR, textStatus, errorThrown){
+        console.error('email fail!');
+        $('#contactForm').trigger("reset");
+        $("#submitForm").prop("disabled", false);
+        $.LoadingOverlay("hide");
       });
     }
 
