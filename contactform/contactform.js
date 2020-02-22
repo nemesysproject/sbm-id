@@ -149,7 +149,8 @@ $(document).ready(function() {
       })
       .fail(function(jqXHR, textStatus, errorThrown){
         console.error('email fail!');
-        $('#contactForm').trigger("reset");
+        $('#errormessage').prop("hide", false);
+        $('#errormessage').html(JSON.parse( jqXHR.responseText).Message);
         $("#submitForm").prop("disabled", false);
         $.LoadingOverlay("hide");
       });
