@@ -1,0 +1,171 @@
+ï»¿INFO  2020-02-22 11:57:03,417   564ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 11:57:11,094  8241ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+INFO  2020-02-22 12:03:04,163   554ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 12:03:26,287 22678ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+INFO  2020-02-22 12:05:02,221   551ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 12:05:11,468  9798ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+INFO  2020-02-22 12:06:46,171   545ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 12:07:20,348 34722ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+ERROR 2020-02-22 12:07:41,437 55811ms EmailController        MoveNext           -    en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en SBM.WebApi.Controllers.EmailController.<Post>d__1.MoveNext() en C:\Desarrollo\SBM\SBM-Cloud\Core\SBM.WebApi\Controllers\EmailController.cs:línea 45
+ERROR 2020-02-22 12:07:41,437 55811ms EmailController        MoveNext           - Error al enviar correo.
+ERROR 2020-02-22 12:07:41,437 55811ms EmailController        MoveNext           - No es posible conectar con el servidor remoto
+ERROR 2020-02-22 12:07:41,437 55811ms EmailController        MoveNext           - Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 192.185.7.211:25
+INFO  2020-02-22 12:09:26,580 160954ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+ERROR 2020-02-22 12:09:47,623 181997ms EmailController        MoveNext           -    en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en SBM.WebApi.Controllers.EmailController.<Post>d__1.MoveNext() en C:\Desarrollo\SBM\SBM-Cloud\Core\SBM.WebApi\Controllers\EmailController.cs:línea 45
+ERROR 2020-02-22 12:09:47,623 181997ms EmailController        MoveNext           - Error al enviar correo.
+ERROR 2020-02-22 12:09:47,624 181998ms EmailController        MoveNext           - No es posible conectar con el servidor remoto
+ERROR 2020-02-22 12:09:47,624 181998ms EmailController        MoveNext           - Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 192.185.7.211:25
+INFO  2020-02-22 12:16:06,110 560484ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+ERROR 2020-02-22 12:16:27,161 581536ms EmailController        MoveNext           -    en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en SBM.WebApi.Controllers.EmailController.<Post>d__1.MoveNext() en C:\Desarrollo\SBM\SBM-Cloud\Core\SBM.WebApi\Controllers\EmailController.cs:línea 45
+ERROR 2020-02-22 12:16:27,161 581536ms EmailController        MoveNext           - Error al enviar correo.
+ERROR 2020-02-22 12:16:27,162 581537ms EmailController        MoveNext           - No es posible conectar con el servidor remoto
+ERROR 2020-02-22 12:16:27,162 581537ms EmailController        MoveNext           - Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 192.185.7.211:25
+INFO  2020-02-22 12:28:10,976   547ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 12:28:21,408 10979ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+ERROR 2020-02-22 12:28:42,510 32081ms EmailController        MoveNext           -    en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en SBM.WebApi.Controllers.EmailController.<Post>d__1.MoveNext() en C:\Desarrollo\SBM\SBM-Cloud\Core\SBM.WebApi\Controllers\EmailController.cs:línea 45
+ERROR 2020-02-22 12:28:42,510 32081ms EmailController        MoveNext           - Error al enviar correo.
+ERROR 2020-02-22 12:28:42,510 32081ms EmailController        MoveNext           - No es posible conectar con el servidor remoto
+ERROR 2020-02-22 12:28:42,511 32082ms EmailController        MoveNext           - Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 192.185.7.211:25
+INFO  2020-02-22 12:29:27,148 76720ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+ERROR 2020-02-22 12:29:48,171 97742ms EmailController        MoveNext           -    en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en SBM.WebApi.Controllers.EmailController.<Post>d__1.MoveNext() en C:\Desarrollo\SBM\SBM-Cloud\Core\SBM.WebApi\Controllers\EmailController.cs:línea 45
+ERROR 2020-02-22 12:29:48,171 97742ms EmailController        MoveNext           - Error al enviar correo.
+ERROR 2020-02-22 12:29:48,171 97742ms EmailController        MoveNext           - No es posible conectar con el servidor remoto
+ERROR 2020-02-22 12:29:48,171 97742ms EmailController        MoveNext           - Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 192.185.7.211:25
+INFO  2020-02-22 12:32:07,725 237296ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+ERROR 2020-02-22 12:32:28,769 258340ms EmailController        MoveNext           -    en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en SBM.WebApi.Controllers.EmailController.<Post>d__1.MoveNext() en C:\Desarrollo\SBM\SBM-Cloud\Core\SBM.WebApi\Controllers\EmailController.cs:línea 45
+ERROR 2020-02-22 12:32:28,769 258340ms EmailController        MoveNext           - Error al enviar correo.
+ERROR 2020-02-22 12:32:28,769 258340ms EmailController        MoveNext           - No es posible conectar con el servidor remoto
+ERROR 2020-02-22 12:32:28,769 258340ms EmailController        MoveNext           - Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 192.185.7.211:25
+INFO  2020-02-22 12:37:49,155   550ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 12:38:09,548 20943ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+ERROR 2020-02-22 12:38:30,636 42031ms EmailController        MoveNext           -    en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en SBM.WebApi.Controllers.EmailController.<Post>d__1.MoveNext() en C:\Desarrollo\SBM\SBM-Cloud\Core\SBM.WebApi\Controllers\EmailController.cs:línea 45
+ERROR 2020-02-22 12:38:30,636 42031ms EmailController        MoveNext           - Error al enviar correo.
+ERROR 2020-02-22 12:38:30,636 42031ms EmailController        MoveNext           - No es posible conectar con el servidor remoto
+ERROR 2020-02-22 12:38:30,636 42031ms EmailController        MoveNext           - Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 192.185.7.211:25
+INFO  2020-02-22 12:40:21,549   560ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 12:40:36,566 15577ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+ERROR 2020-02-22 12:40:57,668 36679ms EmailController        MoveNext           -    en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en SBM.WebApi.Controllers.EmailController.<Post>d__1.MoveNext() en C:\Desarrollo\SBM\SBM-Cloud\Core\SBM.WebApi\Controllers\EmailController.cs:línea 45
+ERROR 2020-02-22 12:40:57,668 36679ms EmailController        MoveNext           - Error al enviar correo.
+ERROR 2020-02-22 12:40:57,668 36679ms EmailController        MoveNext           - No es posible conectar con el servidor remoto
+ERROR 2020-02-22 12:40:57,669 36680ms EmailController        MoveNext           - Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 192.185.7.211:25
+INFO  2020-02-22 12:41:13,452 52464ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+ERROR 2020-02-22 12:41:34,504 73515ms EmailController        MoveNext           -    en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en SBM.WebApi.Controllers.EmailController.<Post>d__1.MoveNext() en C:\Desarrollo\SBM\SBM-Cloud\Core\SBM.WebApi\Controllers\EmailController.cs:línea 45
+ERROR 2020-02-22 12:41:34,504 73515ms EmailController        MoveNext           - Error al enviar correo.
+ERROR 2020-02-22 12:41:34,504 73515ms EmailController        MoveNext           - No es posible conectar con el servidor remoto
+ERROR 2020-02-22 12:41:34,505 73516ms EmailController        MoveNext           - Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 192.185.7.211:25
+INFO  2020-02-22 12:42:27,593 126604ms EmailController        MoveNext           - From: yohannish002@gmail.com
+ERROR 2020-02-22 12:42:48,613 147625ms EmailController        MoveNext           -    en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en SBM.WebApi.Controllers.EmailController.<Post>d__1.MoveNext() en C:\Desarrollo\SBM\SBM-Cloud\Core\SBM.WebApi\Controllers\EmailController.cs:línea 45
+ERROR 2020-02-22 12:42:48,614 147626ms EmailController        MoveNext           - Error al enviar correo.
+ERROR 2020-02-22 12:42:48,614 147626ms EmailController        MoveNext           - No es posible conectar con el servidor remoto
+ERROR 2020-02-22 12:42:48,614 147626ms EmailController        MoveNext           - Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 192.185.7.211:25
+INFO  2020-02-22 12:43:14,232 173244ms EmailController        MoveNext           - From: correo@correo.com
+ERROR 2020-02-22 12:43:35,275 194286ms EmailController        MoveNext           -    en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en SBM.WebApi.Controllers.EmailController.<Post>d__1.MoveNext() en C:\Desarrollo\SBM\SBM-Cloud\Core\SBM.WebApi\Controllers\EmailController.cs:línea 45
+ERROR 2020-02-22 12:43:35,275 194286ms EmailController        MoveNext           - Error al enviar correo.
+ERROR 2020-02-22 12:43:35,275 194286ms EmailController        MoveNext           - No es posible conectar con el servidor remoto
+ERROR 2020-02-22 12:43:35,276 194287ms EmailController        MoveNext           - Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 192.185.7.211:25
+INFO  2020-02-22 12:46:42,266 381278ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+ERROR 2020-02-22 12:47:03,309 402321ms EmailController        MoveNext           -    en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en SBM.WebApi.Controllers.EmailController.<Post>d__1.MoveNext() en C:\Desarrollo\SBM\SBM-Cloud\Core\SBM.WebApi\Controllers\EmailController.cs:línea 45
+ERROR 2020-02-22 12:47:03,309 402321ms EmailController        MoveNext           - Error al enviar correo.
+ERROR 2020-02-22 12:47:03,309 402321ms EmailController        MoveNext           - No es posible conectar con el servidor remoto
+ERROR 2020-02-22 12:47:03,309 402321ms EmailController        MoveNext           - Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 192.185.7.211:25
+INFO  2020-02-22 12:50:22,602   549ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 12:52:08,460   551ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 12:54:48,944   561ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 12:55:17,597 29213ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 12:55:24,225 35841ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 12:55:26,714 38330ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 12:55:45,679 57295ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 12:55:55,031 66647ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 12:56:19,785 91401ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 13:07:37,773   582ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 13:08:19,472 42280ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 13:08:31,408 54216ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 13:09:00,628 83437ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 13:09:54,710   555ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 13:10:26,238 32083ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 13:11:20,655 86500ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 13:25:44,795   546ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 13:26:21,693 37444ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+ERROR 2020-02-22 13:26:22,136 37887ms EmailController        MoveNext           -    en System.Net.Security.SslState.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, Exception exception)
+   en System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   en System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   en System.Net.TlsStream.CallProcessAuthentication(Object state)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   en System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   en System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   en System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   en System.Net.Mail.SmtpConnection.Flush()
+   en System.Net.Mail.ReadLinesCommand.Send(SmtpConnection conn)
+   en System.Net.Mail.EHelloCommand.Send(SmtpConnection conn, String domain)
+   en System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   en System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   en System.Net.Mail.SmtpClient.GetConnection()
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en SBM.WebApi.Controllers.EmailController.<Post>d__1.MoveNext() en C:\Desarrollo\SBM\SBM-Cloud\Core\SBM.WebApi\Controllers\EmailController.cs:línea 39
+ERROR 2020-02-22 13:26:22,137 37888ms EmailController        MoveNext           - El certificado remoto no es válido según el procedimiento de validación.
+INFO  2020-02-22 13:26:41,585 57336ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+INFO  2020-02-22 13:27:15,561   551ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 13:27:29,173 14163ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+INFO  2020-02-22 13:27:38,467   560ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 13:28:04,869 26961ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+INFO  2020-02-22 13:28:10,304 32397ms EmailController        MoveNext           - Email sended!
+INFO  2020-02-22 13:30:05,408   553ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 13:30:56,000 51145ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+INFO  2020-02-22 13:30:56,547 51692ms EmailController        MoveNext           - Email sended!
+INFO  2020-02-22 13:31:45,575 100719ms EmailController        MoveNext           - From: yohannish002@gmail.com
+INFO  2020-02-22 13:31:45,799 100943ms EmailController        MoveNext           - Email sended!
+INFO  2020-02-22 13:33:50,897 226041ms EmailController        MoveNext           - From: zutm@yahoo.com
+INFO  2020-02-22 13:33:51,422 226567ms EmailController        MoveNext           - Email sended!
+INFO  2020-02-22 13:36:03,559 358704ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+INFO  2020-02-22 13:36:04,097 359242ms EmailController        MoveNext           - Email sended!
+INFO  2020-02-22 13:36:38,396 393541ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+INFO  2020-02-22 13:36:38,622 393766ms EmailController        MoveNext           - Email sended!
+INFO  2020-02-22 13:36:57,270 412415ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+INFO  2020-02-22 13:36:57,499 412644ms EmailController        MoveNext           - Email sended!
+INFO  2020-02-22 13:38:46,692 521837ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+INFO  2020-02-22 13:38:47,224 522369ms EmailController        MoveNext           - Email sended!
+INFO  2020-02-22 13:44:42,068   552ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 13:44:52,802 11286ms EmailController        MoveNext           - From: yohannish002@gmail.com
+INFO  2020-02-22 13:47:18,613   547ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 13:47:25,217  7151ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+INFO  2020-02-22 13:49:45,182   551ms HomeController         Index              - HomeController.Index() was called
+INFO  2020-02-22 13:50:36,971 52340ms EmailController        MoveNext           - From: yohannish002@gmail.com
+INFO  2020-02-22 13:50:37,604 52973ms EmailController        MoveNext           - Email sended!
+INFO  2020-02-22 13:52:16,011 151380ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+INFO  2020-02-22 13:52:16,236 151605ms EmailController        MoveNext           - Email sended!
+INFO  2020-02-22 13:55:27,033 342402ms EmailController        MoveNext           - From: zutm@yahoo.com
+INFO  2020-02-22 13:55:45,736 361105ms EmailController        MoveNext           - Email sended!
+INFO  2020-02-22 13:56:59,048 434417ms EmailController        MoveNext           - From: mzuniga@sbm-id.net
+INFO  2020-02-22 13:56:59,278 434647ms EmailController        MoveNext           - Email sended!
+INFO  2020-02-22 14:00:17,727   554ms HomeController         Index              - HomeController.Index() was called

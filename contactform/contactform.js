@@ -1,13 +1,13 @@
-$(document).ready(function() {
+$(document).ready(function () {
   "use strict";
 
   //Contact
-  $("form.contactForm").submit(function() {
+  $("form.contactForm").submit(function () {
     var f = $(this).find(".form-group"),
       ferror = false,
       emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
 
-    f.children("input").each(function() {
+    f.children("input").each(function () {
       // run all inputs
 
       var i = $(this); // current input
@@ -66,7 +66,7 @@ $(document).ready(function() {
           .show("blind");
       }
     });
-    f.children("textarea").each(function() {
+    f.children("textarea").each(function () {
       // run all inputs
 
       var i = $(this); // current input
@@ -115,9 +115,9 @@ $(document).ready(function() {
     if (fromEmail !== "" && subject !== "" && message !== "") {
       var data = {
         Name: contactName,
-        Email:fromEmail,
-        Subject:subject,
-        Message:message
+        Email: fromEmail,
+        Subject: subject,
+        Message: message
       };
       // Email.send({
       //   Host: "sbm-id.net",
@@ -138,21 +138,27 @@ $(document).ready(function() {
       $.ajax({
         type: "POST",
         url: "https://localhost:44319/api/Email",
-        data: data,        
-        dataType: "json"
-      })
-      .done( function(){
-        console.log('email send!');
-        $('#contactForm').trigger("reset");
-        $("#submitForm").prop("disabled", false);
-        $.LoadingOverlay("hide");
-      })
-      .fail(function(jqXHR, textStatus, errorThrown){
-        console.error('email fail!');
-        $('#errormessage').prop("hide", false);
-        $('#errormessage').html(JSON.parse( jqXHR.responseText).Message);
-        $("#submitForm").prop("disabled", false);
-        $.LoadingOverlay("hide");
+        data: data,
+        dataType: "json",
+        // success : function (response) {
+        //   console.log('email send!');
+        //   $('#contactForm').trigger("reset");
+        //   $("#submitForm").prop("disabled", false);
+        //   $.LoadingOverlay("hide");  
+        // },
+        error: function (response) {
+          if (response.status === 200) {
+            console.log('email send!');
+            $('#contactForm').trigger("reset");
+          } else if(response.responseText !== ''){
+            console.error('email fail!');
+            $('#errormessage').prop("hide", false);
+            $('#errormessage').html(JSON.parse(response.responseText).Message);
+          }
+
+          $("#submitForm").prop("disabled", false);
+          $.LoadingOverlay("hide");
+        }
       });
     }
 
